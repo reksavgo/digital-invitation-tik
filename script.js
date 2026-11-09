@@ -44,7 +44,7 @@ if (tombolBuka) {
 }
 
 // 2. FITUR COUNTDOWN TIMER
-const targetDate = new Date("November 14, 2026 08:00:00").getTime();
+const targetDate = new Date("November 16, 2026 08:00:00").getTime();
 setInterval(() => {
   const now = new Date().getTime();
   const distance = targetDate - now;
